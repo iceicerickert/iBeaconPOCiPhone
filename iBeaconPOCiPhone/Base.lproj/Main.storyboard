@@ -16,12 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1262"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME SCREEN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQf-By-oUA">
-                                <rect key="frame" x="80" y="273" width="160" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome2.png" translatesAutoresizingMaskIntoConstraints="NO" id="p8t-8C-r8e">
+                                <rect key="frame" x="-35" y="44" width="390" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome1.png" translatesAutoresizingMaskIntoConstraints="NO" id="1MA-YY-XZE">
+                                <rect key="frame" x="37" y="123" width="247" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Dit experiment wordt mede mogelijk gemaakt door:" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbf-u1-49i">
+                                <rect key="frame" x="29" y="30" width="263" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="&amp;" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwK-1I-UhP">
+                                <rect key="frame" x="29" y="237" width="263" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Rick, Lennart en Wesley" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LA-D9-I9R">
+                                <rect key="frame" x="29" y="289" width="263" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -238,7 +261,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSg-oa-M0B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939" y="123"/>
+            <point key="canvasLocation" x="580" y="139"/>
         </scene>
         <!--Table View Controller - Aanbiedingen!-->
         <scene sceneID="veP-Jx-5dD">
@@ -313,20 +336,20 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Regular tabs en Color tabs voor een extreem lage prijs!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWY-rm-IEL">
-                                                    <rect key="frame" x="0.0" y="126" width="320" height="57"/>
+                                                    <rect key="frame" x="0.0" y="126" width="320" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aanbieding3.png" translatesAutoresizingMaskIntoConstraints="NO" id="vG3-yB-9Zc">
-                                                    <rect key="frame" x="0.0" y="182" width="320" height="133"/>
+                                                    <rect key="frame" x="0.0" y="185" width="320" height="133"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8I-Qf-74c">
                                                     <rect key="frame" x="0.0" y="318" width="320" height="139"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <string key="text">Met de tabs van Ariël gebruikt u nooit meer te veel of te weinig wasmiddel.  De Tabs zijn namelijk voor u gedoseerd! En voor slechts 23 cent per wasbeurt zijn de tabs niet alleen zuinig en handig, maar ook nog eens enorm goedkoop!</string>
+                                                    <string key="text">Met de tabs van Ariël gebruikt u nooit meer te veel of te weinig wasmiddel. De Tabs zijn namelijk voor u gedoseerd! En voor slechts 23 cent per wasbeurt zijn de tabs niet alleen zuinig en handig, maar ook nog eens enorm goedkoop!</string>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -339,7 +362,7 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="€ 2,50" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZo-pT-G2Y">
-                                                    <rect key="frame" x="221" y="267" width="99" height="48"/>
+                                                    <rect key="frame" x="221" y="271" width="99" height="48"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -365,7 +388,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E5h-bY-PHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-265" y="853"/>
+            <point key="canvasLocation" x="-266" y="720"/>
         </scene>
     </scenes>
     <resources>
@@ -374,6 +397,8 @@
         <image name="aanbieding3.png" width="320" height="133"/>
         <image name="pasen1.jpg" width="520" height="270"/>
         <image name="pasen2.jpg" width="424" height="303"/>
+        <image name="welcome1.png" width="189" height="40"/>
+        <image name="welcome2.png" width="260" height="150"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
