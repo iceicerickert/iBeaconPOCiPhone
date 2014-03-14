@@ -21,6 +21,20 @@
 		7BE61DF018C88C00009E37A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE61DD218C88C00009E37A6 /* UIKit.framework */; };
 		7BE61DF818C88C00009E37A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BE61DF618C88C00009E37A6 /* InfoPlist.strings */; };
 		7BE61DFA18C88C00009E37A6 /* iBeaconPOCiPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE61DF918C88C00009E37A6 /* iBeaconPOCiPhoneTests.m */; };
+		7BE61E0418C88DB1009E37A6 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE61E0318C88DB1009E37A6 /* libEstimoteSDK.a */; };
+		7BE61E0618C88DBF009E37A6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE61E0518C88DBF009E37A6 /* CoreBluetooth.framework */; };
+		7BE61E0818C88DCA009E37A6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE61E0718C88DCA009E37A6 /* CoreLocation.framework */; };
+		7BE61E0A18C88DD3009E37A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE61E0918C88DD3009E37A6 /* SystemConfiguration.framework */; };
+		7BF60B6418D32762007B9942 /* pasen1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6318D32762007B9942 /* pasen1.jpg */; };
+		7BF60B6618D32823007B9942 /* pasen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6518D32823007B9942 /* pasen2.jpg */; };
+		7BF60B6818D337B9007B9942 /* aanbieding-kratkraker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6718D337B9007B9942 /* aanbieding-kratkraker.png */; };
+		7BF60B6B18D33976007B9942 /* aanbieding1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6918D33976007B9942 /* aanbieding1.jpg */; };
+		7BF60B6C18D33976007B9942 /* aanbieding2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6A18D33976007B9942 /* aanbieding2.jpg */; };
+		7BF60B6E18D33B5B007B9942 /* aanbieding-krat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6D18D33B5B007B9942 /* aanbieding-krat.png */; };
+		7BF60B7018D343FB007B9942 /* aanbieding3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF60B6F18D343FB007B9942 /* aanbieding3.png */; };
+		7BFA48F518C89455002EF848 /* backgroundBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA48F418C89455002EF848 /* backgroundBig@2x.png */; };
+		7BFA48F718C8945E002EF848 /* backgroundSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA48F618C8945E002EF848 /* backgroundSmall@2x.png */; };
+		7BFA48F918C89464002EF848 /* dotImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA48F818C89464002EF848 /* dotImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,20 @@
 		7BE61DF518C88C00009E37A6 /* iBeaconPOCiPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconPOCiPhoneTests-Info.plist"; sourceTree = "<group>"; };
 		7BE61DF718C88C00009E37A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BE61DF918C88C00009E37A6 /* iBeaconPOCiPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconPOCiPhoneTests.m; sourceTree = "<group>"; };
+		7BE61E0318C88DB1009E37A6 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = EstimoteSDK/libEstimoteSDK.a; sourceTree = "<group>"; };
+		7BE61E0518C88DBF009E37A6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7BE61E0718C88DCA009E37A6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7BE61E0918C88DD3009E37A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7BF60B6318D32762007B9942 /* pasen1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasen1.jpg; sourceTree = "<group>"; };
+		7BF60B6518D32823007B9942 /* pasen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasen2.jpg; sourceTree = "<group>"; };
+		7BF60B6718D337B9007B9942 /* aanbieding-kratkraker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aanbieding-kratkraker.png"; sourceTree = "<group>"; };
+		7BF60B6918D33976007B9942 /* aanbieding1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aanbieding1.jpg; sourceTree = "<group>"; };
+		7BF60B6A18D33976007B9942 /* aanbieding2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aanbieding2.jpg; sourceTree = "<group>"; };
+		7BF60B6D18D33B5B007B9942 /* aanbieding-krat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aanbieding-krat.png"; sourceTree = "<group>"; };
+		7BF60B6F18D343FB007B9942 /* aanbieding3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aanbieding3.png; sourceTree = "<group>"; };
+		7BFA48F418C89455002EF848 /* backgroundBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundBig@2x.png"; sourceTree = "<group>"; };
+		7BFA48F618C8945E002EF848 /* backgroundSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundSmall@2x.png"; sourceTree = "<group>"; };
+		7BFA48F818C89464002EF848 /* dotImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dotImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE61E0A18C88DD3009E37A6 /* SystemConfiguration.framework in Frameworks */,
+				7BE61E0818C88DCA009E37A6 /* CoreLocation.framework in Frameworks */,
+				7BE61E0618C88DBF009E37A6 /* CoreBluetooth.framework in Frameworks */,
+				7BE61E0418C88DB1009E37A6 /* libEstimoteSDK.a in Frameworks */,
 				7BE61DD118C88C00009E37A6 /* CoreGraphics.framework in Frameworks */,
 				7BE61DD318C88C00009E37A6 /* UIKit.framework in Frameworks */,
 				7BE61DCF18C88C00009E37A6 /* Foundation.framework in Frameworks */,
@@ -101,6 +133,10 @@
 		7BE61DCD18C88C00009E37A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BE61E0918C88DD3009E37A6 /* SystemConfiguration.framework */,
+				7BE61E0718C88DCA009E37A6 /* CoreLocation.framework */,
+				7BE61E0518C88DBF009E37A6 /* CoreBluetooth.framework */,
+				7BE61E0318C88DB1009E37A6 /* libEstimoteSDK.a */,
 				7BE61DCE18C88C00009E37A6 /* Foundation.framework */,
 				7BE61DD018C88C00009E37A6 /* CoreGraphics.framework */,
 				7BE61DD218C88C00009E37A6 /* UIKit.framework */,
@@ -126,6 +162,8 @@
 		7BE61DD518C88C00009E37A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7BF60B6218D32751007B9942 /* pictures */,
+				7BFA48F318C893F8002EF848 /* assets */,
 				7BE61DD618C88C00009E37A6 /* iBeaconPOCiPhone-Info.plist */,
 				7BE61DD718C88C00009E37A6 /* InfoPlist.strings */,
 				7BE61DDA18C88C00009E37A6 /* main.m */,
@@ -150,6 +188,30 @@
 				7BE61DF618C88C00009E37A6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BF60B6218D32751007B9942 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				7BF60B6918D33976007B9942 /* aanbieding1.jpg */,
+				7BF60B6A18D33976007B9942 /* aanbieding2.jpg */,
+				7BF60B6F18D343FB007B9942 /* aanbieding3.png */,
+				7BF60B6D18D33B5B007B9942 /* aanbieding-krat.png */,
+				7BF60B6718D337B9007B9942 /* aanbieding-kratkraker.png */,
+				7BF60B6318D32762007B9942 /* pasen1.jpg */,
+				7BF60B6518D32823007B9942 /* pasen2.jpg */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+		7BFA48F318C893F8002EF848 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA48F818C89464002EF848 /* dotImage@2x.png */,
+				7BFA48F618C8945E002EF848 /* backgroundSmall@2x.png */,
+				7BFA48F418C89455002EF848 /* backgroundBig@2x.png */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +261,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rick de Hoop";
 				TargetAttributes = {
+					7BE61DCA18C88C00009E37A6 = {
+						DevelopmentTeam = 9Z69644A6V;
+					};
 					7BE61DEB18C88C00009E37A6 = {
 						TestTargetID = 7BE61DCA18C88C00009E37A6;
 					};
@@ -230,7 +295,17 @@
 			files = (
 				7BE61DE718C88C00009E37A6 /* Images.xcassets in Resources */,
 				7BE61DD918C88C00009E37A6 /* InfoPlist.strings in Resources */,
+				7BF60B7018D343FB007B9942 /* aanbieding3.png in Resources */,
+				7BF60B6C18D33976007B9942 /* aanbieding2.jpg in Resources */,
+				7BF60B6618D32823007B9942 /* pasen2.jpg in Resources */,
+				7BFA48F918C89464002EF848 /* dotImage@2x.png in Resources */,
 				7BE61DE218C88C00009E37A6 /* Main.storyboard in Resources */,
+				7BFA48F518C89455002EF848 /* backgroundBig@2x.png in Resources */,
+				7BF60B6E18D33B5B007B9942 /* aanbieding-krat.png in Resources */,
+				7BFA48F718C8945E002EF848 /* backgroundSmall@2x.png in Resources */,
+				7BF60B6B18D33976007B9942 /* aanbieding1.jpg in Resources */,
+				7BF60B6818D337B9007B9942 /* aanbieding-kratkraker.png in Resources */,
+				7BF60B6418D32762007B9942 /* pasen1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,9 +453,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBeaconPOCiPhone/iBeaconPOCiPhone-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/EstimoteSDK/Headers",
+				);
 				INFOPLIST_FILE = "iBeaconPOCiPhone/iBeaconPOCiPhone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/rickdehoop/Dropbox/School/Informatica\\ I7/Project/03\\ Software/01\\ iOS\\ app/iBeaconPOCiPhone/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,9 +476,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBeaconPOCiPhone/iBeaconPOCiPhone-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/EstimoteSDK/Headers",
+				);
 				INFOPLIST_FILE = "iBeaconPOCiPhone/iBeaconPOCiPhone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/rickdehoop/Dropbox/School/Informatica\\ I7/Project/03\\ Software/01\\ iOS\\ app/iBeaconPOCiPhone/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +555,7 @@
 				7BE61DFF18C88C00009E37A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BE61E0018C88C00009E37A6 /* Build configuration list for PBXNativeTarget "iBeaconPOCiPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +564,7 @@
 				7BE61E0218C88C00009E37A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
